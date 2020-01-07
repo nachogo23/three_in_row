@@ -128,12 +128,7 @@ int main(int argc, char *argv[])
 void dibujarTablero(tablero tabla[n][m])
 {
 printf("------------------------------------\n");
-	printf("BIENVENIDO AL JUEGO \n");
-printf("       TRIQUI\n");
-printf("------------------------------------\n");
-printf("HECHO Y MEJORADO POR\n");
-printf("PARA QUE JUEGUE LA FAMILIA \n");
-printf("------------------------------------\n");
+
 printf("------  A Jugar  -----\n");
 
 

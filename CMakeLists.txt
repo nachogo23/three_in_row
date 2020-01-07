@@ -2,7 +2,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
 #project name
-PROJECT(juego1)
+PROJECT(three_in_row)
 
 #find required packages (look for the package, usually at /usr/share/cmake-2.8/Modules/ or /usr/share/)
 FIND_PACKAGE(OpenCV REQUIRED)
@@ -18,6 +18,6 @@ TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${OpenCV_LIBS})
 
 # # Setting this prefix will be used by INSTALL commands in next CMakeLists
 # SET(CMAKE_INSTALL_PREFIX /usr/local)
-# 
+#
 # #install
 # INSTALL(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
